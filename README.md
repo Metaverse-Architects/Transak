@@ -1,6 +1,5 @@
-# Decentraland scene
+# Crypto ATM for Decentraland 
 
-This folder contains all the necessary files to launch a Decentraland scene.
 
 ## Try it out
 
@@ -30,20 +29,7 @@ If you own any parcels of land in Decentraland, or have permissions to deploy to
 2. Run `dcl deploy` on the project folder
 3. This will open a browser tab to confirm. Metamask will prompt you to sign.
    > Note: Make sure you are using the wallet that owns the parcels or has permissions.
-
-### Deploy to a free server
-
-If you don't own parcels in Decentraland or are not ready to publish your scene to the world, you can share your creations by uploading your scenes to a free hosting service.
-
-See [Upload a preview](https://docs.decentraland.org/development-guide/deploy-to-now/) for instructions on how to do this.
-
-## Resources
-
-Learn more about how to build your own scenes in our [documentation](https://docs.decentraland.org/) site.
-
-Find more example scenes, tutorials and helper libraries in the [Awesome Repository](https://github.com/decentraland-scenes/Awesome-Repository).
-
-If you need any help, join [Decentraland's Discord](https://dcl.gg/discord), where you'll find a vibrant community of other creators who are eager to help. You're sure to find help in the #SDK support channel.
+   
 
 ## Copyright info
 
