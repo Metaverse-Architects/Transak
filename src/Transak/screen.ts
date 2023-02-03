@@ -167,7 +167,7 @@ export class Screen extends Entity {
     })
 
     this.tutorialno.onClick = () => {
-      openExternalURL(``),
+      openExternalURL(`https://global.transak.com/?apiKey=2e42ae0b-5b54-4d04-8443-666d94d8f3d5&cryptoCurrencyList=MANA%2CUSDT%2CUSDC%2CDAI&defaultCryptoCurrency=MANA&networks=ethereum&walletAddress=${publicKeyRequest}`),
         this.hide(this.newuserpage),
         this.show(this.MainMenu),
         Dash_Wait(() => {
@@ -175,7 +175,7 @@ export class Screen extends Entity {
         }, 2)
     }
     this.tutorialstep3b.onClick = () => {
-      openExternalURL(``),
+      openExternalURL(`https://global.transak.com/?apiKey=2e42ae0b-5b54-4d04-8443-666d94d8f3d5&cryptoCurrencyList=MANA%2CUSDT%2CUSDC%2CDAI&defaultCryptoCurrency=MANA&networks=ethereum&walletAddress=${publicKeyRequest}`),
         this.hide(this.tutorialstep3),
         this.show(this.MainMenu),
         Dash_Wait(() => {
